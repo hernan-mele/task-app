@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import TaskList from './componentes/taskList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="task-app">
+      <div className='title'>
+        <h1>Task App</h1>
+      </div>
+      <div className='main-task-list'>
+        <h2>My Tasks</h2>
+        <TaskList />
+      </div>
     </div>
   );
 }
