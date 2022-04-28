@@ -1,5 +1,5 @@
 import React from 'react'
-import {AioutlineCloseCircle} from 'react-icons/ai'
+import {AiOutlineCloseCircle} from 'react-icons/ai'
 import '../styles-sheets/Task.css'
 
 function Task({id, text, completed, completeTask, deleteTask}){
@@ -9,7 +9,7 @@ function Task({id, text, completed, completeTask, deleteTask}){
                 {text}
             </div>
             <div className='task-container-icons' onClick={() => deleteTask(id)}>
-                <AioutlineCloseCircle className='task-icon' />
+                <AiOutlineCloseCircle className='task-icon' />
             </div>
         </div>
     )
