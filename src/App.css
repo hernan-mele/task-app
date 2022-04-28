@@ -12,15 +12,24 @@ html, body{
 }
 
 h1{
-    color: #1b1b32;
-    font-size: 25px;
+    color: #fff;
+    font-size: 35px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: 20px 0;
+    text-decoration: underline;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    color: #1b1b32;
+    font-family: 'Roboto', sans-serif;
 }
 
 .task-app{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;

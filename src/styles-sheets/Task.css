@@ -1,4 +1,4 @@
-.task-container{
+.container-task{
     width: 500px;
     min-height: 65px;
     background-color: #1b1b32;
@@ -16,15 +16,15 @@
     cursor: pointer;
 }
 
-.task-container:nth-child(3n + 1){
+.container-task:nth-child(3n + 1){
     background-color: #1b1b32;
 }
 
-.task-container:nth-child(3n + 2){
+.container-task:nth-child(3n + 2){
     background-color: #2a2a40;
 }
 
-.task-container:nth-child(3n + 3){
+.container-task:nth-child(3n + 3){
     background-color: #3b3b4f;
 }
 
@@ -43,7 +43,7 @@
     margin: 5px;
 }
 
-.task-container.completed{
+.container-task.completed{
     background-color: #5a01a7;
     text-decoration: line-through;
 }
